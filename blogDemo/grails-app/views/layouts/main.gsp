@@ -8,9 +8,10 @@
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
-
+    
     <asset:stylesheet src="application.css"/>
-
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'materialize.min.css')}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <g:layoutHead/>
 </head>
 <body>

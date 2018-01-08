@@ -1,10 +1,26 @@
 <!doctype html>
 <html>
 <head>
-    <meta name="layout" content="main"/>
+     <meta name="layout" content="main">
     <title>Welcome to Grails</title>
 </head>
 <body>
+     <div class="container">
+        <div class="row">
+          <div class="col s1">1</div>
+          <div class="col s1">2</div>
+          <div class="col s1">3</div>
+          <div class="col s1">4</div>
+          <div class="col s1">5</div>
+          <div class="col s1">6</div>
+          <div class="col s1">7</div>
+          <div class="col s1">8</div>
+          <div class="col s1">9</div>
+          <div class="col s1">10</div>
+          <div class="col s1">11</div>
+          <div class="col s1">12</div>
+        </div>
+    <div class="container">
     <content tag="nav">
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Application Status <span class="caret"></span></a>
@@ -72,6 +88,6 @@
             </div>
         </section>
     </div>
-
+<script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
